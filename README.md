@@ -5,6 +5,7 @@ Alumni networking platform
 ### To create database: ###
  **note from drake: database is still in test mode**
   * $ mysql -u root < server/schema.sql
+  * node server/insertdata.js
 
 
 ### Make sure you use webpack to generate a client/bundle.js: ###
